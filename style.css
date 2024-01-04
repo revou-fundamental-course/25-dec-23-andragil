@@ -1,0 +1,89 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Menambahkan jarak bawah */
+}
+
+.calculator-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculation-box {
+  width: 48%;
+  margin-right: 20px; /* Menambahkan margin di sisi kanan */
+}
+
+.input-container {
+  padding-right: 20px;
+}
+
+.input-section,
+.result-section,
+.button-section {
+  margin-top: 10px; /* Menambahkan jarak atas */
+  margin-bottom: 10px; /* Menambahkan jarak bawah */
+}
+
+.calculator-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 8px; /* Menambahkan jarak bawah */
+}
+
+button {
+  background-color: #df32d9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease; /* Efek transisi selama 0.3 detik */
+}
+
+button:hover {
+  background-color: #8a168a; /* Ganti warna hover sesuai keinginan Anda */
+}
+
+#luasResult,
+#kelilingResult {
+  font-weight: bold;
+  color: #333;
+}
